@@ -1,0 +1,1 @@
+tendermint lite --chain-id "ethermint-private-network"

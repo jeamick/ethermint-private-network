@@ -1,0 +1,12 @@
+rm -rf .datadir
+rm -rf .tendermint-lite
+mkdir .datadir
+cp -r config/keystore .datadir
+cp -r config/tendermint .datadir/tendermint
+
+ethermint \
+  --datadir .datadir \
+  init config/genesis.json
+
+tendermint --home .datadir/tendermint  init
+
