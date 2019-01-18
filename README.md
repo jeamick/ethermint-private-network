@@ -10,7 +10,9 @@ Instructions on how to setup an ethermint private test network with tendermint c
 
 ## Initialize local test network
 Before you can run ethermint you need to initialize tendermint and ethermint with their respective genesis states:
+``` 
 > bin/init
+``` 
 
 This script will create the following accounts:
 
@@ -57,20 +59,27 @@ This script will create the following accounts:
 
 ## Start tendermint
 Before running ethermint you need to start tendermint node:
+``` 
 > bin/tendermint
-
+``` 
 
 ## Start ethermint
 After running tendermint, start ethermint in another shell with this command:
+``` 
 > bin/ethermint
+``` 
 
 ## Start tendermint-lite
 To run tendermint lite client run this command:
+``` 
 > bin/lite
+``` 
 
 ## Attach geth
 You can interact with the ethermint network by attaching geth to your node:
+``` 
 > bin/geth
+``` 
 
 This will present a javascript console where you can run various commands.
 
