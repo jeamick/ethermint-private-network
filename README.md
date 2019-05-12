@@ -53,7 +53,7 @@ This script will create the following accounts:
   address: '0xd1f9fd5bf8eb0cecd5339ae7a85897364517051e',
   ether: 70,
   password: '1234'
-}
+}]
 ```
 
 
